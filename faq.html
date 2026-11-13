@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ | Artist Compass</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: black;
+        color: white;
+        line-height: 1.5;
+      }
+      h1,
+      h2,
+      h3 {
+        font-family: Georgia, "Times New Roman", Times, serif;
+      }
+
+      /* HEADER */
+      header {
+        background: #00bfff;
+        padding: 16px 5%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 12px 30px;
+      }
+      header a {
+        color: white;
+        text-decoration: none;
+      }
+      .logo {
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-size: 1.4rem;
+        word-spacing: 4px;
+      }
+      .horizontal-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .horizontal-list a:hover {
+        text-decoration: underline;
+      }
+
+      /* PAGE TITLE */
+      .page-title {
+        background: linear-gradient(135deg, black, #00bfff);
+        padding: 70px 5%;
+      }
+      .page-title h1 {
+        font-size: 2.6rem;
+        line-height: 1.1;
+        margin: 0 0 12px;
+      }
+      .page-title p {
+        font-size: 1.15rem;
+        margin: 0;
+      }
+
+      /* FAQ: click a question to open the answer */
+      .faq-box {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 5%;
+      }
+      details {
+        background: #111;
+        border-left: 6px solid #00bfff;
+        margin-bottom: 12px;
+        border-radius: 4px;
+        transition: background 0.3s;
+      }
+      details:hover {
+        background: #1a1a1a;
+      }
+      summary {
+        padding: 16px 20px;
+        font-size: 1.1rem;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      details p {
+        margin: 0;
+        padding: 0 20px 16px;
+      }
+      details a {
+        color: #00bfff;
+      }
+
+      /* FOOTER */
+      .footer {
+        background: white;
+        color: black;
+        padding: 20px 5%;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+      }
+      .footer a {
+        color: black;
+        text-decoration: none;
+      }
+      .footer a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- MENU -->
+    <header>
+      <a href="index.html" class="logo">Artist Compass</a>
+      <ul class="horizontal-list">
+        <li><a href="Weeknd%20pg.html">Featured Artist</a></li>
+        <li><a href="coming-soon.html">Artist Coming Soon</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </header>
+
+    <!-- PAGE TITLE -->
+    <div class="page-title" id="top">
+      <h1>FAQ</h1>
+      <p>
+        Quick answers to common questions. Click a question to see the answer.
+      </p>
+    </div>
+
+    <!-- QUESTIONS: copy one <details> block to add more -->
+    <div class="faq-box">
+      <details>
+        <summary>What is Artist Compass?</summary>
+        <p>
+          It's a beginner friendly guide to artist discographies. We list each
+          artist's projects, point to a good place to start, and show the songs
+          worth hearing first.
+        </p>
+      </details>
+
+      <details>
+        <summary>Where should I start with an artist?</summary>
+        <p>
+          Every artist page has a "How to start" section with our top picks. If
+          you're not sure, begin with the top songs table, then try the album
+          those songs come from.
+        </p>
+      </details>
+
+      <details>
+        <summary>Are the song rankings official?</summary>
+        <p>
+          No. The rankings and starting points are opinions, so they're a guide
+          and not a rule. Trust your own ears.
+        </p>
+      </details>
+
+      <details>
+        <summary>Which artists are on the site?</summary>
+        <p>
+          Right now we cover The Weeknd, Future, J. Cole, Denzel Curry, Travis
+          Scott and A$AP Rocky. More artists are listed on the
+          <a href="coming-soon.html">Artist Coming Soon</a> page.
+        </p>
+      </details>
+
+      <details>
+        <summary>Can I listen to the music here?</summary>
+        <p>
+          No. This site is a guide only, so you'll need to listen on a music app
+          or website you already use.
+        </p>
+      </details>
+
+      <details>
+        <summary>Who owns the images?</summary>
+        <p>
+          All photos and album covers belong to their owners. They're used here
+          only to help show each artist and project.
+        </p>
+      </details>
+
+      <details>
+        <summary>Can I suggest an artist?</summary>
+        <p>Yes, that feature is coming soon.</p>
+      </details>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <a href="index.html" class="logo">Artist Compass</a>
+      <ul class="horizontal-list">
+        <li><a href="Weeknd%20pg.html">Featured Artist</a></li>
+        <li><a href="#top">Back to the Top</a></li>
+        <li>Find your way through discographies</li>
+      </ul>
+    </footer>
+  </body>
+</html>

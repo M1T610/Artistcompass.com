@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don Toliver</title>
+    <style>
+body { margin: 0; font-family: Arial, sans-serif; background: black; color: white; line-height: 1.5; }
+h1, h2, h3 { font-family: Georgia, 'Times New Roman', Times, serif; }
+
+header { background: #00bfff; padding: 16px 5%; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 30px; }
+.horizontal-list { display: flex; flex-wrap: wrap; gap: 20px; list-style: none; padding: 0; margin: 0; }
+
+.hero { background: linear-gradient(135deg, black, #00bfff); color: white; padding: 70px 5%; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 30px; }
+.hero-content { flex: 1; min-width: 280px; }
+.hero-img { width: 320px; max-width: 100%; border-radius: 8px; border: 4px solid #00bfff; }
+.hero h1 { font-size: 2.6rem; line-height: 1.1; margin-top: 0; }
+.hero p { font-size: 1.15rem; color: #cfd6ff; }
+
+.table-box { max-width: 900px; margin: 40px auto; padding: 0 5%; }
+.table { width: 100%; border-collapse: collapse; border-width: 4px; border-radius: 8px; background: #111; border-style: solid; border-color: #00bfff; }
+.table th { background: #00bfff; color: white; text-align: left; padding: 12px 16px; }
+.table td { padding: 12px 16px; border-bottom: 1px solid #333; }
+.table tr:last-child td { border-bottom: none; }
+.table tr:hover td { background: #00bfff; }
+
+table { width: 100%; border-collapse: collapse; }
+th { background: #00bfff; color: white; padding: 12px; text-align: left; }
+td { padding: 12px; border-bottom: 1px solid #444; vertical-align: middle; }
+.album-pic { width: 100px; height: 100px; object-fit: cover; display: block; }
+ul { margin: 0; padding-left: 20px; }
+
+.how-to { max-width: 900px; margin: 40px auto; padding: 0 5%; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.how-to h2 { grid-column: 1 / -1; margin: 0; font-size: 2rem; border-bottom: 3px solid #00bfff; padding-bottom: 8px; }
+.how-to h3 { margin: 0; background: #111; border-left: 6px solid #00bfff; padding: 20px; border-radius: 4px; }
+
+.if-liked { max-width: 900px; margin: 40px auto; padding: 0 5%; }
+.if-liked h4 { font-size: 1.4rem; margin: 0 0 12px; color: #00bfff; }
+.if-liked p { margin: 0; padding: 12px 16px; background: #111; border-bottom: 1px solid #333; }
+
+.footer { background: black; color: white; padding: 20px 5%; margin-top: 40px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; }
+.footer a { color: white; text-decoration: none; }
+.footer .horizontal-list { margin: 0; }
+.footer a:hover { text-decoration: underline; }
+header a { color: white; }
+.brand { margin: 0; font-size: 1.4rem; word-spacing: 20px; color: white; }
+.horizontal-list a:hover { text-decoration: underline; }
+
+    </style>
+</head>
+<body>
+     <header>
+        <h1 class="brand"><class="logo">Artist Compass</h1>
+        <ul class="horizontal-list">
+            <li><a href="file:///C:/Users/user/Downloads/artist-compass.html#feat_art">Featured Artist</a></li>
+            <li><a href="file:///C:/Users/user/Downloads/coming%20soon.html">Artist Coming Soon</a></li>
+            <li><a href="file:///C:/Users/user/Downloads/about%20artist%20comp.html">About</a></li>
+            <li><a href="file:///C:/Users/user/Downloads/faw.html">FAQ</a></li>
+        </ul>
+    </header>
+    <section>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Don Toliver</h1>
+                <p>Houston singer and rapper known for smooth, melodic vocals and dreamy, atmospheric trap.</p>
+            </div>
+            <!-- HERO PICTURE: swap the src for your own image -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Don_Toliver_by_Sanchez_Productions.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Featured artist" class="hero-img">
+        </div>
+        <div class="cards"></div>
+        <div class="table-box">
+            <table class="table">
+    <tr>
+        <th>Rank</th>
+        <th>Hit Songs</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>No Idea</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>No Pole</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>After Party</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>NEW DROP</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Private Landing</td>
+    </tr>
+</table>
+        </div>
+
+         <div class="table-box">
+        <table>
+            <!-- HEADER ROW: the 3 categories -->
+            <tr>
+                <th>Album</th>
+                <th>Name</th>
+                <th>Notable Tracks</th>
+            </tr>
+ 
+            <!-- 10 ALBUM ROWS: copy one <tr> block to add more -->
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLnT0jh-KKKholh45u6SpGWp3aB02Pmnz0LL9AOUwTkg&s=10" alt="Album 1 cover" class="album-pic"></td>
+            <td>Donny Womack</td>
+            <td>
+                <ul>
+                    <li>Holdin’ Steel</li>
+                    <li>Video Girl</li>
+                    <li>2 Lil Shorty</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcqj26FWt0-25u-iN5E4LjqwqkHNUiAF2Sn1m7ReI2dQ&s=10" alt="Album 2 cover" class="album-pic"></td>
+            <td>Heaven Or Hell</td>
+            <td>
+                <ul>
+                    <li>Euphoria</li>
+                    <li>Can’t Feel My Legs</li>
+                    <li>No Idea</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJdz1nMtNQ4PtAkgXrGIbNd6cJcSLH0tvcWyn_mv0nvw&s=10" alt="Album 3 cover" class="album-pic"></td>
+            <td>Life of a Don</td>
+            <td>
+                <ul>
+                    <li>What You Need</li>
+                    <li>XSCAPE</li>
+                    <li>You</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoI9jjTfx__RpK463LbqTeRAWGdAzg1WAhlveMRNQNOdGfgtlGAd4aY-o&s=10" alt="Album 4 cover" class="album-pic"></td>
+            <td>Love Sick</td>
+            <td>
+                <ul>
+                    <li>Embarrassed</li>
+                    <li>Bus Stop</li>
+                    <li>Let Her Go</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIz00Lu9ULQT_xUq0n1Kdx1WfjLf5LEYl0qsF09ViJpA&s=10" alt="Album 5 cover" class="album-pic"></td>
+            <td>HARDSTONE PSYCHO</td>
+            <td>
+                <ul>
+                    <li>PURPLE RAIN</li>
+                    <li>KRYPTONITE</li>
+                    <li>4X4</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/a/a9/Don_Toliver_-_Octane_cover.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 5 cover" class="album-pic"></td>
+            <td>OCTANE</td>
+            <td>
+                <ul>
+                    <li>Rosary</li>
+                    <li>Secondhand</li>
+                    <li>TMU</li>
+                </ul>
+            </td>
+        </tr>
+        </table>
+    </div>
+
+    </section> 
+        <section class="how-to">
+            <h2>How to start</h2>
+            <h3>What You Need</h3>
+            <h3>Bus Stop</h3>
+            <h3>KRYPTONITE</h3>
+        </section>
+        <div class="if-liked">
+            <h4>if you liked:</h4>
+            <p>What You Need: listen to Life of a Don and Heaven Or Hell</p>
+            <p>Bus Stop: listen to Love Sick and Donny Womack</p>
+            <p>KRYPTONITE: listen to HARDSTONE PSYCHO and OCTANE</p>
+        </div>
+        <footer class="footer">
+        <a href="file:///C:/Users/user/Downloads/artist-compass.html" class="logo">Artist Compass</a>
+        <ul class="horizontal-list">
+            <li><a href="file:///C:/Users/user/Downloads/artist-compass.html">Featured Artist</a></li>
+            <li><a href="#top">Back to the Top</a></li>
+            <li>Find your way through discographies</li>
+        </ul>
+    </footer>
+</body>
+</html>
