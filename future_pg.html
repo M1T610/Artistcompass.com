@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future</title>
+    <style>
+body { margin: 0; font-family: Arial, sans-serif; background: black; color: white; line-height: 24px; }
+h1, h2, h3 { font-family: Georgia, 'Times New Roman', Times, serif; }
+
+header { background: #00bfff; padding: 16px 5%; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 30px; }
+header a { color: black; text-decoration: none; }
+.logo { font-family: Georgia, 'Times New Roman', Times, serif; font-size: 22.4px; word-spacing: 4px; }
+.horizontal-list { display: flex; flex-wrap: wrap; gap: 20px; list-style: none; padding: 0; margin: 0; }
+
+.hero { background: linear-gradient(135deg, black, #00bfff); color: white; padding: 70px 5%; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 30px; }
+.hero-content { flex: 1; min-width: 280px; }
+.hero-img { width: 320px; max-width: 100%; border-radius: 8px; border: 4px solid #00bfff; }
+.hero h1 { font-size: 41.6px; line-height: 1.1; margin-top: 0; }
+.hero p { font-size: 18.4px; color: #cfd6ff; }
+
+.table-box { max-width: 900px; margin: 40px auto; padding: 0 5%; }
+.table { width: 100%; border-collapse: collapse; border-width: 4px; border-radius: 8px; background: #111; border-style: solid; border-color: #00bfff; }
+.table th { background: #00bfff; color: white; text-align: left; padding: 12px 16px; }
+.table td { padding: 12px 16px; border-bottom: 1px solid #333; }
+.table tr:last-child td { border-bottom: none; }
+.table tr:hover td { background: #00bfff; }
+
+table { width: 100%; border-collapse: collapse; }
+th { background: #00bfff; color: white; padding: 12px; text-align: left; }
+td { padding: 12px; border-bottom: 1px solid #444; vertical-align: middle; }
+.album-pic { width: 100px; height: 100px; object-fit: cover; display: block; }
+ul { margin: 0; padding-left: 20px; }
+
+.how-to { max-width: 900px; margin: 40px auto; padding: 0 5%; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.how-to h2 { grid-column: 1 / -1; margin: 0; font-size: 32px; border-bottom: 3px solid #00bfff; padding-bottom: 8px; }
+.how-to h3 { margin: 0; background: #111; border-left: 6px solid #00bfff; padding: 20px; border-radius: 4px; }
+
+.if-liked { max-width: 900px; margin: 40px auto; padding: 0 5%; }
+.if-liked h4 { font-size: 22.4px; margin: 0 0 12px; color: #00bfff; }
+.if-liked p { margin: 0; padding: 12px 16px; background: #111; border-bottom: 1px solid #333; }
+
+footer { background: #00bfff; padding: 16px 5%; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 30px; }
+footer a { color: black; text-decoration: none; }
+.footer .horizontal-list { margin: 0; }
+.footer a:hover { text-decoration: underline; }
+header a { color: white; }
+.brand { margin: 0; font-size: 22.4px; word-spacing: 20px; color: white; }
+.horizontal-list a:hover { text-decoration: underline; }
+
+    </style>
+</head>
+<body>
+     <header>
+        <h1 class="brand"><class="logo">Artist Compass</h1>
+        <ul class="horizontal-list">
+            <li><a href="file:///C:/Users/user/Downloads/artist-compass.html#feat_art">Featured Artist</a></li>
+            <li><a href="file:///C:/Users/user/Downloads/coming%20soon.html">Artist Coming Soon</a></li>
+            <li><a href="file:///C:/Users/user/Downloads/about%20artist%20comp.html">About</a></li>
+            <li><a href="file:///C:/Users/user/Downloads/faq.html">FAQ</a></li>
+        </ul>
+    </header>
+    <section>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Future</h1>
+                <p>Atlanta rapper known for melodic, auto-tuned trap that shaped the sound of modern hip-hop.</p>
+            </div>
+            <img src="https://i.scdn.co/image/ab676161000051742c472c891062acb4f3068583" alt="Featured artist" class="hero-img">
+        </div>
+        <div class="cards"></div>
+        <div class="table-box">
+            <table class="table">
+    <tr>
+        <th>Rank</th>
+        <th>Song</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Mask Off</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Life Is Good</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>WAIT FOR U</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Low Life</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Like That</td>
+    </tr>
+</table>
+        </div>
+
+         <div class="table-box">
+        <table>
+            <tr>
+                <th>Album</th>
+                <th>Name</th>
+                <th>Notable Tracks</th>
+            </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/8/88/Future_-_Pluto.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 1 cover" class="album-pic"></td>
+            <td>Pluto</td>
+            <td>
+                <ul>
+                    <li>Tony Montano</li>
+                    <li>I’m Trippin</li>
+                    <li>Magic (Remix)</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://i.scdn.co/image/ab67616d0000b273b33c0ea34b4ae964118b0623" alt="Album 2 cover" class="album-pic"></td>
+            <td>Honest</td>
+            <td>
+                <ul>
+                    <li>Blood, Sweat, Tears</li>
+                    <li>How Can I Not</li>
+                    <li>I’ll Be Yours </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/9/95/Future_Monster_%28mixtapes%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 3 cover" class="album-pic"></td>
+            <td>Monster</td>
+            <td>
+                <ul>
+                    <li>My Savages</li>
+                    <li>Throw Away</li>
+                    <li>Radical</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://i.scdn.co/image/ab67616d0000b27349ba84212b4e6e27702c1a24" alt="Album 4 cover" class="album-pic"></td>
+            <td>Beast Mode</td>
+            <td>
+                <ul>
+                    <li>Forever Eva</li>
+                    <li>Where I Came From</li>
+                    <li>Lay Up</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/0/08/Future_56_Nights_%28mixtape%29.jpeg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 5 cover" class="album-pic"></td>
+            <td>56 Nights</td>
+            <td>
+                <ul>
+                    <li>March Madness</li>
+                    <li>Diamonds From Africa</li>
+                    <li>56 Nights</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/2/29/DS2_by_Future.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 6 cover" class="album-pic"></td>
+            <td>DS2</td>
+            <td>
+                <ul>
+                    <li>Real Sisters</li>
+                    <li>I Serve the Base</li>
+                    <li>Kno The Meaning</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/9/94/Drake_and_Future_-_What_a_Time_to_Be_Alive_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 7 cover" class="album-pic"></td>
+            <td>What A Time To Be Alive</td>
+            <td>
+                <ul>
+                    <li>Diamonds Dancing</li>
+                    <li>Digital Dash</li>
+                    <li>Jumpman</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/5/53/Purple_Reign_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 8 cover" class="album-pic"></td>
+            <td>Purple Reign</td>
+            <td>
+                <ul>
+                    <li>Purple Reign</li>
+                    <li>Inside The Mattress</li>
+                    <li>News or Something</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://thumb.wikimedia.org/wikipedia/en/thumb/f/f3/EVOL_by_Future_cover.jpg/250px-EVOL_by_Future_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=parser&utm_content=thumbnail" alt="Album 9 cover" class="album-pic"></td>
+            <td>EVOL</td>
+            <td>
+                <ul>
+                    <li>Low Life</li>
+                    <li>Seven Rings</li>
+                    <li>Program</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/9/96/Future_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 10 cover" class="album-pic"></td>
+            <td>FUTURE</td>
+            <td>
+                <ul>
+                    <li>POA</li>
+                    <li>Mask Off</li>
+                    <li>Extra Luv</li>
+                </ul>
+            </td>
+        </tr>
+         <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/8/83/HNDRXX_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 10 cover" class="album-pic"></td>
+            <td>HNDRXX</td>
+            <td>
+                <ul>
+                    <li>Solo</li>
+                    <li>Damage</li>
+                    <li>Lookin Exotic</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/1/1e/Super_Slimey_cover.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 10 cover" class="album-pic"></td>
+            <td>SUPER SLIMEY</td>
+            <td>
+                <ul>
+                    <li>Patek Water</li>
+                    <li>Three</li>
+                    <li>No Cap</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://i.scdn.co/image/ab67616d0000b273c64062196630be5cee367ee8" alt="Album 10 cover" class="album-pic"></td>
+            <td>BEASTMODE 2</td>
+            <td>
+                <ul>
+                    <li>31 DAYS</li>
+                    <li>SOME MORE</li>
+                    <li>WIFI LIT</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/2/24/Future_-_The_Wizrd.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 10 cover" class="album-pic"></td>
+            <td>The WIZRD</td>
+            <td>
+                <ul>
+                    <li>Temptation</li>
+                    <li>Never Stop</li>
+                    <li>Jumpin on a Jet</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://images.genius.com/641e1b2def6f74c00766b7ab6b2e0fb3.1000x1000x1.jpg" alt="Album 10 cover" class="album-pic"></td>
+            <td>SAVE ME</td>
+            <td>
+                <ul>
+                    <li>Extra</li>
+                    <li>Shotgun</li>
+                    <li>Government Official</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/7/71/Future_-_High_Off_Life.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 10 cover" class="album-pic"></td>
+            <td>High Off Life</td>
+            <td>
+                <ul>
+                    <li>Hard To Choose One</li>
+                    <li>Accepting My Flaws</li>
+                    <li>Trapped In The Sun</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://i.scdn.co/image/ab67616d0000b273d78a9573e04175b6ffe114dd" alt="Album 10 cover" class="album-pic"></td>
+            <td>Pluto x Baby Pluto</td>
+            <td>
+                <ul>
+                    <li>Heart In Pieces</li>
+                    <li>Million Dollar Play </li>
+                    <li>Moment Of Clarity</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://images.genius.com/b6d5655f4f008a6d4df7b4c7ca553a04.1000x1000x1.png" alt="Album 10 cover" class="album-pic"></td>
+            <td>I NEVER LIKED YOU</td>
+            <td>
+                <ul>
+                    <li>WAIT FOR U</li>
+                    <li>I’M ON ONE</li>
+                    <li>GOLD STACKS</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/8/8a/Future_and_Metro_Boomin_-_We_Don%27t_Trust_You.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 10 cover" class="album-pic"></td>
+            <td>WE DON'T TRUST YOU</td>
+            <td>
+                <ul>
+                    <li>Young Metro</li>
+                    <li>Cinderella</li>
+                    <li>Like That</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/6/6b/We_Still_Don%27t_Trust_You.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 10 cover" class="album-pic"></td>
+            <td>WE STILL DON'T TRUST YOU</td>
+            <td>
+                <ul>
+                    <li>We Still Don't Trust You</li>
+                    <li>Show of Hands</li>
+                    <li>All To Myself/li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXlZ0Q4VTCdNXXkRiDyeBtGMGSv05P9-gUB9DYFClnWA&s=10" alt="Album 10 cover" class="album-pic"></td>
+            <td>MIXTAPE PLUTO</td>
+            <td>
+                <ul>
+                    <li>SKI</li>
+                    <li>LIL DEMON</li>
+                    <li>LOST MY DOG </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/5/55/Official_album_cover_for_%22The_Real_Me%22.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 10 cover" class="album-pic"></td>
+            <td>The Real Me</td>
+            <td>
+                <ul>
+                    <li>Snow In Skyami</li>
+                    <li>Eye To Eye</li>
+                    <li>Konnichiwa</li>
+                </ul>
+            </td>
+        </tr>
+        </table>
+    </div>
+
+    </section> 
+        <section class="how-to">
+            <h2>How to start</h2>
+            <h3>Throw Away</h3>
+            <h3>Solo</h3>
+            <h3>Jumpin on a Jet</h3>
+        </section>
+        <div class="if-liked">
+            <h4>if you liked:</h4>
+            <p>Throw Away: listen to Monster, DS2 and Purple Reign</p>
+            <p>Solo: listen to HNDRXX, High Off Life and Pluto</p>
+            <p>Jumpin on a Jet: listen to The WIZRD, FUTURE and 56 Nights</p>
+        </div>
+        <footer class="footer">
+        <a href="index.html" class="footer">Artist Compass</a>
+        <ul class="horizontal-list">
+            <li><a href="file:///C:/Users/user/Downloads/artist-compass.html">Featured Artist</a></li>
+            <li><a href="#top">Back to the Top</a></li>
+            <li>Find your way through discographies</li>
+        </ul>
+    </footer>
+</body>
+</html>

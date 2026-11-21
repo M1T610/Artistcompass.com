@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Weeknd</title>
+    <style>
+body { margin: 0; font-family: Arial, sans-serif; background: black; color: white; line-height: 24px; }
+h1, h2, h3 { font-family: Georgia, 'Times New Roman', Times, serif; }
+
+header { background: #00bfff; padding: 16px 5%; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 30px; }
+header a { color: black; text-decoration: none; }
+.logo { font-family: Georgia, 'Times New Roman', Times, serif; font-size: 22.4px; word-spacing: 4px; }
+.horizontal-list { display: flex; flex-wrap: wrap; gap: 20px; list-style: none; padding: 0; margin: 0; }
+
+.hero { background: linear-gradient(135deg, black, #00bfff); color: white; padding: 70px 5%; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 30px; }
+.hero-content { flex: 1; min-width: 280px; }
+.hero-img { width: 320px; max-width: 100%; border-radius: 8px; border: 4px solid #00bfff; }
+.hero h1 { font-size: 41.6px; line-height: 1.1; margin-top: 0; }
+.hero p { font-size: 18.4px; color: #cfd6ff; }
+
+.table-box { max-width: 900px; margin: 40px auto; padding: 0 5%; }
+.table { width: 100%; border-collapse: collapse; border-width: 4px; border-radius: 8px; background: #111; border-style: solid; border-color: #00bfff; }
+.table th { background: #00bfff; color: white; text-align: left; padding: 12px 16px; }
+.table td { padding: 12px 16px; border-bottom: 1px solid #333; }
+.table tr:last-child td { border-bottom: none; }
+.table tr:hover td { background: #00bfff; }
+
+table { width: 100%; border-collapse: collapse; }
+th { background: #00bfff; color: white; padding: 12px; text-align: left; }
+td { padding: 12px; border-bottom: 1px solid #444; vertical-align: middle; }
+.album-pic { width: 100px; height: 100px; object-fit: cover; display: block; }
+ul { margin: 0; padding-left: 20px; }
+
+.how-to { max-width: 900px; margin: 40px auto; padding: 0 5%; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; }
+.how-to h2 { grid-column: 1 / -1; margin: 0; font-size: 32px; border-bottom: 3px solid #00bfff; padding-bottom: 8px; }
+.how-to h3 { margin: 0; background: #111; border-left: 6px solid #00bfff; padding: 20px; border-radius: 4px; }
+
+.if-liked { max-width: 900px; margin: 40px auto; padding: 0 5%; }
+.if-liked h4 { font-size: 22.4px; margin: 0 0 12px; color: #00bfff; }
+.if-liked p { margin: 0; padding: 12px 16px; background: #111; border-bottom: 1px solid #333; }
+
+footer { background: #00bfff; padding: 16px 5%; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 30px; }
+footer a { color: black; text-decoration: none; }
+.footer .horizontal-list { margin: 0; }
+.footer a:hover { text-decoration: underline; }
+header a { color: white; }
+.brand { margin: 0; font-size: 22.4px; word-spacing: 20px; color: white; }
+.horizontal-list a:hover { text-decoration: underline; }
+
+    </style>
+</head>
+<body>
+     <header>
+        <h1 class="brand"><class="header">Artist Compass</h1>
+        <ul class="horizontal-list">
+            <li><a href="file:///C:/Users/user/Downloads/artist-compass.html#feat_art">Featured Artist</a></li>
+            <li><a href="file:///C:/Users/user/Downloads/coming%20soon.html">Artist Coming Soon</a></li>
+            <li><a href="file:///C:/Users/user/Downloads/about%20artist%20comp.html">About</a></li>
+            <li><a href="file:///C:/Users/user/Downloads/faq.html">FAQ</a></li>
+        </ul>
+    </header>
+    <section>
+        <div class="hero">
+            <div class="hero-content">
+                <h1>The Weeknd</h1>
+                <p>Canadian singer known for dark, moody R&B that grew into huge pop hits.</p>
+            </div>
+            <img src="https://i.scdn.co/image/ab6761610000e5ebc1719ac9e6a75c1c25835018" alt="Featured artist" class="hero-img">
+        </div>
+        <div class="cards"></div>
+        <div class="table-box">
+            <table class="table">
+    <tr>
+        <th>Rank</th>
+        <th>Song</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Blinding Lights</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Starboy</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Die For You</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>The Hills</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>One Of The Girls</td>
+    </tr>
+</table>
+        </div>
+
+         <div class="table-box">
+        <table>
+            <tr>
+                <th>Album</th>
+                <th>Name</th>
+                <th>Notable Tracks</th>
+            </tr>
+ 
+        <tr>
+            <td><img src="https://images.genius.com/de6c93e056beb50dbba1bad4fb459075.1000x1000x1.jpg" alt="Album 1 cover" class="album-pic"></td>
+            <td>House Of Balloons</td>
+            <td>
+                <ul>
+                    <li>Wicked Games</li>
+                    <li>House Of Balloons / Glass Table Girls</li>
+                    <li>High For This</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://images.genius.com/1d4e1b8dd401906009d931e7a7c6a3bb.1000x1000x1.png" alt="Album 2 cover" class="album-pic"></td>
+            <td>Thursday</td>
+            <td>
+                <ul>
+                    <li>The Birds Pt. 2</li>
+                    <li>Gone</li>
+                    <li>Lonely Star</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/3/34/The_Weeknd_-_Echoes_of_Silence.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 3 cover" class="album-pic"></td>
+            <td>Echoes Of Silence</td>
+            <td>
+                <ul>
+                    <li>The Fall</li>
+                    <li>XO / The Host</li>
+                    <li>Montreal</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/e/ed/The_Weeknd_-_Kiss_Land.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 4 cover" class="album-pic"></td>
+            <td>Kiss Land</td>
+            <td>
+                <ul>
+                    <li>Adaptation</li>
+                    <li>Kiss Land</li>
+                    <li>Tears In The Rain</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkGSnQUFs3-MPxGI1VoA0H3of1w0HTyJ4a58kimIDdDw&s=10" alt="Album 5 cover" class="album-pic"></td>
+            <td>Beauty Behind The Madness</td>
+            <td>
+                <ul>
+                    <li>Acquainted</li>
+                    <li>The Hills</li>
+                    <li>Angel</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJUkqkUuLBuqBtKfsUwrdPKe3SW-5Worv4h1lF4cUa_g&s=10" alt="Album 6 cover" class="album-pic"></td>
+            <td>Starboy</td>
+            <td>
+                <ul>
+                    <li>Starboy</li>
+                    <li>All I Know</li>
+                    <li>Reminder</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/4/4d/MyDearMelancholy_-_album_by_The_Weeknd.jpg?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 7 cover" class="album-pic"></td>
+            <td>My Dear Melancholy,</td>
+            <td>
+                <ul>
+                    <li>Wasted Times</li>
+                    <li>Hurt You</li>
+                    <li>Privilege </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPENIUu6cEXfuK-b5eXWJH2ORcQTV45nDESmF0RukXAA&s=10" alt="Album 8 cover" class="album-pic"></td>
+            <td>After Hours</td>
+            <td>
+                <ul>
+                    <li>After Hours</li>
+                    <li>Escape From LA</li>
+                    <li>Until I Bleed Out</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/b/b9/The_Weeknd_-_Dawn_FM.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 9 cover" class="album-pic"></td>
+            <td>Dawn FM</td>
+            <td>
+                <ul>
+                    <li>Out of Time</li>
+                    <li>Less Than Zero</li>
+                    <li>Starry Eyes</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td><img src="https://upload.wikimedia.org/wikipedia/en/7/75/The_Weeknd_-_Hurry_Up_Tomorrow_%28alternative_cover%29.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Album 10 cover" class="album-pic"></td>
+            <td>Hurry Up Tomorrow</td>
+            <td>
+                <ul>
+                    <li>Take Me Back To LA</li>
+                    <li>Niagara Falls</li>
+                    <li>Enjoy The Show</li>
+                </ul>
+            </td>
+        </tr>
+        </table>
+    </div>
+
+    </section> 
+        <section class="how-to">
+            <h2>How to start</h2>
+            <h3>Adaptation</h3>
+            <h3>Less Than Zero</h3>
+            <h3>The Birds Pt.2</h3>
+        </section>
+        <div class="if-liked">
+            <h4>if you liked:</h4>
+            <p>Adaptation: listen to Kiss Land, After Hours and My Dear Melancholy,</p>
+            <p>Less Than Zero: listen to Dawn FM, Starboy and Beauty Behind The Madness</p>
+            <p>The Birds Pt.2: listen to Thrusday, House Of Balloons and Echoes Of Silence</p>
+        </div>
+
+        <footer class="footer">
+        <a href="index.html" class="footer">Artist Compass</a>
+        <ul class="horizontal-list">
+            <li><a href="file:///C:/Users/user/Downloads/artist-compass.html">Featured Artist</a></li>
+            <li><a href="#top">Back to the Top</a></li>
+            <li>Find your way through discographies</li>
+        </ul>
+    </footer>
+</body>
+</html>
